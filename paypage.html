@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Complete your order - the-logic-group.com Checkout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        
+        <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+        <meta http-equiv="PRAGMA" content="NO-CACHE">
+        <meta http-equiv="EXPIRES" content="0">
+        <link rel="icon" href="images/favicon.ico">
+        <link href="./Complete your order - the-logic-group.com Checkout_files/paypage.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            var mobileCssEnabled = false;
+            var cscEnabled = true;
+            var issueEnabled = false;
+            var isMobile = false;
+            var cardholderNameEnabled = false;
+            var focusField = 'cardType';
+            var cardNumberPlaceholder = 'Enter your Card Number';
+            var cardholderNamePlaceholder = 'Enter your Name';
+            var closeIcon = '../images/closeIcon.png';
+            var cscImage = '../images/cscLocation.png';
+            var paymentMethodsAvailable = false;
+            var displayManualAuthPanel = false;
+            var showPayerAuthPostPanel = false;
+            var cardTokenUsed = false;
+            var confirmCheck1Disabled = false;
+            var confirmCheck2Disabled = false;
+            var cardOptionsJsonFormat = '{"mastercard":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE","currencyName":"GBP","surchargeAmount":"£2.50","totalAmount":"£80.27"},"default":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":false,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"CARD_TYPE"},"american express":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE","currencyName":"GBP","surchargeAmount":"£2.50","totalAmount":"£80.27"},"maestro":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yyyy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE"},"visa debit":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE"},"visa electron":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE"},"visa":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE","currencyName":"GBP","surchargeAmount":"£2.50","totalAmount":"£80.27"},"mastercard debit":{"fieldCardNumberEnabled":true,"fieldExpiryDateEnabled":true,"fieldStartDateEnabled":false,"startYearRange":15,"startMonthFormat":"mm","startYearFormat":"yyyy","expiryYearRange":50,"expiryMonthFormat":"mm","expiryYearFormat":"yy","expiryPastYears":0,"fieldIssueEnabled":false,"fieldCSCEnabled":true,"fieldCardholderNameEnabled":false,"tooltipCardholderNameEnabled":true,"tooltipCardNumberEnabled":false,"tooltipExpiryDateEnabled":false,"tooltipStartDateEnabled":true,"tooltipIssueEnabled":true,"tooltipCSCEnabled":true,"optionalCscEnabled":false,"fieldConfirmCheck1Enabled":false,"fieldConfirmCheck1Disabled":false,"fieldConfirmCheck1Checked":false,"fieldConfirmCheck1Required":true,"tooltipConfirmCheck1Enabled":true,"fieldConfirmCheck2Enabled":false,"fieldConfirmCheck2Disabled":false,"fieldConfirmCheck2Checked":false,"fieldConfirmCheck2Required":false,"tooltipConfirmCheck2Enabled":false,"fieldCardHolderNameRequired":true,"fieldCardNumberRequired":true,"fieldExpiryDateRequired":true,"fieldIssueRequired":false,"fieldCSCRequired":true,"fieldStartDateRequired":false,"focusOption":"NONE"}}';
+            var monthsCommaSeparetedList = 'Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec';
+            var tokenCardType = '';
+        </script>
+        <script type="text/javascript" src="./Complete your order - the-logic-group.com Checkout_files/jquery-1.11.1.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="./Complete your order - the-logic-group.com Checkout_files/paypage.js"></script>
+        <span id="jsCardOptions">
+        	<script type="text/javascript" src="./Complete your order - the-logic-group.com Checkout_files/cardoptions.js"></script>
+        </span><div id="paypage"><div id="paypageHeading">
+                <h1>
+                    Details of your order
+                </h1>
+            </div>
+<form id="cardEntryForm" name="cardEntryForm" method="post" action="/pages/paypage.jsf" accept-charset="utf-8" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="cardEntryForm" value="cardEntryForm">
+<div id="storeName">DVLA</div><div id="infoMessagePanel" style="display: none;"><img id="infoIcon" src="./Complete your order - the-logic-group.com Checkout_files/info.png" alt="Information" title="Information"><span id="infoMessage" class="infoText">Card Surcharge amount of {0} has been applied to your purchase amount.</span></div>
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                
+                
+                
+
+                
+
+                <div id="cardEntryPanel" class="centered">
+                    
+                    <div id="purchaseDetailsPanel">
+                        <fieldset id="purchaseDetailsFieldset">
+                            <legend id="purchaseDetailsLegend">
+                                <span id="purchaseDetailsHeader">Total Payable</span>
+                            </legend>
+
+                            <div id="purchaseDetailsGoods" class="formSection"><span id="goodsLabel" class="formLabel">Product</span><span id="goods" class="bodyText">VRN</span></div><div id="purchaseDetailsAmount" class="formSection"><span id="amountLabel" class="formLabel">Amount</span><span id="amount" class="bodyText">£77.77</span></div><div id="purchaseDetailsSurchargeAmount" class="formSection" style="display: none;"><span id="surchargeAmountLabel" class="formLabel">Credit card fee</span><span id="surchargeAmount" class="bodyText"></span></div><div id="purchaseDetailsTotalAmount" class="formSection" style="display: none;"><span id="totalAmountLabel" class="formLabel">Total</span><span id="totalAmount" class="bodyText"></span></div>
+
+                            
+
+                            
+
+                            
+                        </fieldset>
+                    </div><div id="addressPanel"></div><div id="paymentDetailsPanel">
+                        <fieldset id="paymentDetailsFieldset">
+                            <legend id="paymentDetailsLegend">
+                                <span id="paymentDetailsTitle"></span>
+                            </legend>
+                            <div id="cardTypeSection" class="formSection required"><span id="cardTypeLabelPanel" class="formLabel"><label id="cardTypeLabel" for="cardType">
+Card Type<span id="cardTypeDescription" class="description">Select the type of your card</span></label><span id="cardTypeHelpPanel"><img id="cardTypeLabelHelpIcon" src="./Complete your order - the-logic-group.com Checkout_files/helpIcon.gif" alt="The type of your card" title="The type of your card" class="labelHelpImg"></span></span><select id="cardType" name="cardType" class="formInput" size="1">	<option value="">(Please select)</option>
+	<option value="visa">Visa (+£2.50)</option>
+	<option value="visa debit">Visa Debit</option>
+	<option value="visa electron">Visa Electron</option>
+	<option value="mastercard">MasterCard (+£2.50)</option>
+	<option value="mastercard debit">MasterCard Debit</option>
+	<option value="maestro">Maestro</option>
+	<option value="american express">American Express (+£2.50)</option>
+</select></div><div id="cardNumberSection" class="formSection required"><span id="cardNumberLabelPanel" class="formLabel"><label id="cardNumberLabel" for="cardNumber">
+Card Number<span id="cardDescription" class="description">The long number on the front of your card</span></label><span id="cardNumberHelpPanel"><img id="cardNumberLabelHelpIcon" src="./Complete your order - the-logic-group.com Checkout_files/helpIcon.gif" alt="The long number on the front of your card" title="The long number on the front of your card" class="labelHelpImg"></span></span><input id="cardNumber" type="text" name="cardNumber" autocomplete="off" class="formInput" maxlength="25" placeholder="Enter your Card Number"></div><div id="expirySection" class="formSection required"><span id="expiryLabelPanel" class="formLabel"><span id="expiryLabel">Expiry Date</span><span id="expiryLabelHelpPanel"><img id="expiryLabelHelpIcon" src="./Complete your order - the-logic-group.com Checkout_files/helpIcon.gif" alt="The month and year of your expiry date" title="The month and year of your expiry date" class="labelHelpImg"></span></span><label id="expiryMonthLabel" for="expiryMonth" class="dateDropDownLabel">
+Expiry Month<span id="expiryMonthDescription" class="description">The month of your expiry date</span></label><select id="expiryMonth" name="expiryMonth" class="formInput" size="1" title="Expiry Month">	<option value="">Month</option>
+	<option value="01">01</option>
+	<option value="02">02</option>
+	<option value="03">03</option>
+	<option value="04">04</option>
+	<option value="05">05</option>
+	<option value="06">06</option>
+	<option value="07">07</option>
+	<option value="08">08</option>
+	<option value="09">09</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+</select><label id="expiryYearLabel" for="expiryYear" class="dateDropDownLabel">
+Expiry Year<span id="expiryYearDescription" class="description">The year of your expiry date</span></label><select id="expiryYear" name="expiryYear" class="formInput" size="1" title="Expiry Year">	<option value="">Year</option>
+	<option value="2015">15</option>
+	<option value="2016">16</option>
+	<option value="2017">17</option>
+	<option value="2018">18</option>
+	<option value="2019">19</option>
+	<option value="2020">20</option>
+	<option value="2021">21</option>
+	<option value="2022">22</option>
+	<option value="2023">23</option>
+	<option value="2024">24</option>
+	<option value="2025">25</option>
+	<option value="2026">26</option>
+	<option value="2027">27</option>
+	<option value="2028">28</option>
+	<option value="2029">29</option>
+	<option value="2030">30</option>
+	<option value="2031">31</option>
+	<option value="2032">32</option>
+	<option value="2033">33</option>
+	<option value="2034">34</option>
+	<option value="2035">35</option>
+	<option value="2036">36</option>
+	<option value="2037">37</option>
+	<option value="2038">38</option>
+	<option value="2039">39</option>
+	<option value="2040">40</option>
+	<option value="2041">41</option>
+	<option value="2042">42</option>
+	<option value="2043">43</option>
+	<option value="2044">44</option>
+	<option value="2045">45</option>
+	<option value="2046">46</option>
+	<option value="2047">47</option>
+	<option value="2048">48</option>
+	<option value="2049">49</option>
+	<option value="2050">50</option>
+	<option value="2051">51</option>
+	<option value="2052">52</option>
+	<option value="2053">53</option>
+	<option value="2054">54</option>
+	<option value="2055">55</option>
+	<option value="2056">56</option>
+	<option value="2057">57</option>
+	<option value="2058">58</option>
+	<option value="2059">59</option>
+	<option value="2060">60</option>
+	<option value="2061">61</option>
+	<option value="2062">62</option>
+	<option value="2063">63</option>
+	<option value="2064">64</option>
+</select></div><div id="cscSection" class="formSection required"><span id="cscLabelPanel" class="formLabel"><label id="cscLabel" for="csc">
+Card Security Code<span id="cscDescription" class="description">The card security code is 3 digits (Mastercard + Visa) and 4 digits (American Express)</span></label><span id="cscLabelHelpPanel"><img id="cscLabelHelpIcon" src="./Complete your order - the-logic-group.com Checkout_files/helpIcon.gif" alt="The Card Security Code is a 3 or 4 digit value" title="The Card Security Code is a 3 or 4 digit value" class="labelHelpImg"></span></span><input id="csc" type="text" name="csc" autocomplete="off" class="formInput" maxlength="4"><div id="cscToolTip" class="tooltip" style="visibility: hidden;"><span id="cscTooltipText" class="tooltipText">The card security code is 3 digits (Mastercard + Visa) and 4 digits (American Express)</span>
+                                    
+                                    <span class="tooltipBottom">&nbsp;</span>
+                                </div></div>
+
+                            
+                            
+                            
+
+                            
+                            
+
+                            
+                            
+
+                            
+                            
+
+                            
+                            
+
+                            
+                            
+
+                            
+                            
+
+                            
+                            
+
+
+                            
+
+                            
+
+                            
+
+                            
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        </fieldset>
+                    </div>
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    <div id="commands">
+                        <span id="submitHelp">Buttons will be disabled if the What's this? link clicked. Click on the Close link to make the buttons active. </span><input id="btnSubmit" type="submit" name="btnSubmit" value="Pay Now" accesskey="P" alt="Pay (Alt[+Shift]+P)" title="Pay (Alt[+Shift]+P)" class="submitButton"><input id="btnCancel" type="submit" name="btnCancel" value="Cancel" accesskey="C" alt="Cancel (Alt[+Shift]+C)" title="Cancel (Alt[+Shift]+C)" class="cancelButton">
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+                    </div>
+
+                    
+                </div>
+
+                <input id="jsEnabled" type="hidden" name="jsEnabled" value="true"><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id5:j_id6" autocomplete="off">
+</form>
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+            <form name="returnForm" action="pages/facesReturn.jsf" method="post"></form>
+        </div>
+        
+        
+        
+
+        
+         
+
+
+
+
+<script type="text/javascript">
+	function disableScrolling() {
+		document.ontouchmove = function(e) {
+			e.preventDefault();
+		};
+	}
+
+	function enableScrolling() {
+		document.ontouchmove = function(e) {
+			return true;
+		};
+	}
+</script>
+<div id="overlay"></div>
+<div id="waitPanel" class="wait">
+	
+	<span id="progressIgnore" class="invisible">Please ignore the following elements whilst completing the form </span><span id="progressHeader" class="centered"></span><img id="progressSpinnerImage" src="./Complete your order - the-logic-group.com Checkout_files/ajax-loader-grey.gif" alt="Progress spinner animation"><span id="progressText" class="centered">Processing...</span>
+	
+	
+	
+</div>
+
+    
+
+</body></html>
